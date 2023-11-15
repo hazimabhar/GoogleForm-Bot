@@ -15,7 +15,6 @@ async function launchPuppeteer(){
     await page.goto('https://docs.google.com/forms/d/e/1FAIpQLSduKBn_YZN2rOROntHELoflob918hQ7lgWzbIPjbv3hwHeyaA/viewform?usp=sf_link')
 
     let name = getRandomName()
-    // const formattedEmail = name.toLowerCase().replace(/\s/g, '')
 
     await page.type('input[aria-labelledby="i1"]', name)  
     await page.type('input[aria-labelledby="i5"]', getUserEmail(name))
@@ -37,11 +36,11 @@ async function launchPuppeteer(){
 
 function recursion(){
   process.setMaxListeners(20);
-  console.time('HazimBot'); // Start the timer
+  console.time('HazimBot'); 
   for(let i =0; i< 15; i++){
     launchPuppeteer()
   }
-  console.timeEnd('HazimBot'); // End the timer and log the elapsed time
+  console.timeEnd('HazimBot');
   console.log('Memory Usage:', process.memoryUsage());
 }
 
