@@ -9,8 +9,6 @@
   "author": "hazimabhar",
   "license": "ISC",
   "dependencies": {
-    "@faker-js/faker": "^8.2.0",
-    "faker": "^6.6.6",
     "puppeteer": "^21.5.1"
   }
 }
