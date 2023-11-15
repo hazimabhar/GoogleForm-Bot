@@ -1,12 +1,12 @@
 const puppeteer = require('puppeteer');
 
 const getRandomName = require('./name/randomName')
+const getUserEmail = require('./email/emailUser')
 
 const getAnswer1 = require('./question/firstQuestion');
 const getAnswer2 = require('./question/secondQuestion');
 const getAnswer3 = require('./question/thirdQuestion');
 const getAnswer4 = require('./question/fourthQuestion');
-
 
 async function launchPuppeteer(){
     const browser = await puppeteer.launch({headless: false});
@@ -15,10 +15,10 @@ async function launchPuppeteer(){
     await page.goto('https://docs.google.com/forms/d/e/1FAIpQLSduKBn_YZN2rOROntHELoflob918hQ7lgWzbIPjbv3hwHeyaA/viewform?usp=sf_link')
 
     let name = getRandomName()
-    const formattedEmail = name.toLowerCase().replace(/\s/g, '')
+    // const formattedEmail = name.toLowerCase().replace(/\s/g, '')
 
     await page.type('input[aria-labelledby="i1"]', name)  
-    await page.type('input[aria-labelledby="i5"]',  formattedEmail+'@gmail.com')
+    await page.type('input[aria-labelledby="i5"]', getUserEmail(name))
 
     await page.click('div[class="uArJ5e UQuaGc YhQJj zo8FOc ctEux"]')
 
@@ -36,6 +36,7 @@ async function launchPuppeteer(){
 }
 
 function recursion(){
+  process.setMaxListeners(20);
   console.time('HazimBot'); // Start the timer
   for(let i =0; i< 15; i++){
     launchPuppeteer()
