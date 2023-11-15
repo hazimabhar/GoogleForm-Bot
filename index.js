@@ -1,11 +1,11 @@
 const puppeteer = require('puppeteer');
 
-const getRandomName = require('./randomName')
+const getRandomName = require('./name/randomName')
 
-const getAnswer1 = require('./firstQuestion');
-const getAnswer2 = require('./secondQuestion');
-const getAnswer3 = require('./thirdQuestion');
-const getAnswer4 = require('./fourthQuestion');
+const getAnswer1 = require('./question/firstQuestion');
+const getAnswer2 = require('./question/secondQuestion');
+const getAnswer3 = require('./question/thirdQuestion');
+const getAnswer4 = require('./question/fourthQuestion');
 
 
 async function launchPuppeteer(){
@@ -16,7 +16,6 @@ async function launchPuppeteer(){
 
     let name = getRandomName()
     const formattedEmail = name.toLowerCase().replace(/\s/g, '')
-
 
     await page.type('input[aria-labelledby="i1"]', name)  
     await page.type('input[aria-labelledby="i5"]',  formattedEmail+'@gmail.com')

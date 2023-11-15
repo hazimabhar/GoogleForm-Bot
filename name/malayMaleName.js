@@ -21,7 +21,17 @@ function getLastName(){
         "Iqbal",
         "Khalid",
         "Farhan",
-        "Arif"
+        "Arif",
+        "Faiz",
+        "Iman",
+        "Luqman",
+        "Rayyan",
+        "Syafiq",
+        "Irfan",
+        "Zahir",
+        "Mikael",
+        "Emir",
+        "Arshad"
     ]
     const randomizer = Math.floor(Math.random() * arr.length);
     return arr[randomizer];
@@ -29,8 +39,8 @@ function getLastName(){
 
 function getLastNameFather(){
     const arr =[
-        "Alias",
-        "Ismail",
+        "Fazli",
+        "Khairul",
         "Abdullah",
         "Azahar",
         "Harun",
@@ -38,7 +48,12 @@ function getLastNameFather(){
         "Rosli",
         "Fadli",
         "Akhmal",
-        "Jefri"
+        "Jefri",
+        "Ammar",
+        "Aqil",
+        "Nizam",
+        "Amirul",
+        "Afiq"
     ]
     const randomizer = Math.floor(Math.random() * arr.length);
     return arr[randomizer];
