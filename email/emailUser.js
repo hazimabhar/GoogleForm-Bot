@@ -9,7 +9,11 @@ function getEmail(){
 }
 
 function getEmailUser(name){
-    let formattedEmail = name.toLowerCase().replace(/\s/g, '')
+    let formattedEmail = name
+        .toLowerCase()
+        .replace(/\s/g, '')
+        .replace(/a\/l|a\/p/, '')
+        .replace(/binti|bin/, '')
     let emailDomain = getEmail();
     return (
         formattedEmail + emailDomain
