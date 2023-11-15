@@ -37,9 +37,12 @@ async function launchPuppeteer(){
 }
 
 function recursion(){
-  for(let i =0; i< 10; i++){
+  console.time('HazimBot'); // Start the timer
+  for(let i =0; i< 15; i++){
     launchPuppeteer()
   }
+  console.timeEnd('HazimBot'); // End the timer and log the elapsed time
+  console.log('Memory Usage:', process.memoryUsage());
 }
 
 recursion();
