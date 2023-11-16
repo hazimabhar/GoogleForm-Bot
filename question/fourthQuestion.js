@@ -2,11 +2,11 @@
 
 function getAnswer4(){
     const arr =[
-        "i62",
-        "i65",
-        "i68",
-        "i71",
-        "i74",
+        "Strongly  Disagree, response for Row 2",
+        "Disagree, response for Row 2",
+        "Neutral, response for Row 2",
+        "Agree, response for Row 2",
+        "Strongly Agree, response for Row 2",
     ]
     const randomizer = Math.floor(Math.random() * arr.length);
     return arr[randomizer];

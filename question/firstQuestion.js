@@ -2,11 +2,11 @@
 
 function getAnswer1(){
     const arr =[
-        "i5",
-        "i8",
-        "i11",
-        "i14",
-        "i17",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
     ]
     const randomizer = Math.floor(Math.random() * arr.length);
     return arr[randomizer];
