@@ -2,11 +2,11 @@
 
 function getAnswerFaiz16(){
     const arr =[
-        "i24",
-        "i27",
-        "i30",
-        "i33",
-        "i36",
+        "i119",
+        "i122",
+        "i125",
+        "i128",
+        "i131",
     ]
     const randomizer = Math.floor(Math.random() * arr.length);
     return arr[randomizer];
