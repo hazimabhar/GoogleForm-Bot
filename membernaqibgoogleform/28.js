@@ -2,11 +2,17 @@
 
 function getAnswerFaiz28(){
     const arr =[
-        "i43",
-        "i46",
-        "i49",
-        "i52",
-        "i55",
+        "Apple",
+        "Samsung",
+        "Xiaomi",
+        "Huawei",
+        "Vivo",
+        "LG",
+        "Oppo",
+        "Redmi",
+        "Realmi",
+
+
     ]
     const randomizer = Math.floor(Math.random() * arr.length);
     return arr[randomizer];

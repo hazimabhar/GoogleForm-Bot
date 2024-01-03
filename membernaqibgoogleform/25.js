@@ -2,11 +2,11 @@
 
 function getAnswerFaiz25(){
     const arr =[
-        "i62",
-        "i65",
-        "i68",
-        "i71",
-        "i74",
+        "Full-time employment",
+        "Part-time employment",
+        "Self-employed",
+        "Unemployed",
+        "Student",
     ]
     const randomizer = Math.floor(Math.random() * arr.length);
     return arr[randomizer];
