@@ -1,15 +1,15 @@
 //change the array based on the id on google form
 
-function getAnswerFaiz20(){
+function getAnswerFaiz5(){
     const arr =[
-        "i43",
-        "i46",
-        "i49",
-        "i52",
-        "i55",
+        "i57",
+        "i60",
+        "i63",
+        "i66",
+        "i69",
     ]
     const randomizer = Math.floor(Math.random() * arr.length);
     return arr[randomizer];
 }
 
-module.exports = getAnswerFaiz20
+module.exports = getAnswerFaiz5
