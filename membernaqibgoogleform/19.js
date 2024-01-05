@@ -2,11 +2,13 @@
 
 function getAnswerFaiz19(){
     const arr =[
-        "I intend to have a better purchase of smartphone in the future., Strongly Disagree",
-        "I intend to have a better purchase of smartphone in the future., Disagree",
-        "I intend to have a better purchase of smartphone in the future., Neutral",
-        "I intend to have a better purchase of smartphone in the future., Agree",
-        "I intend to have a better purchase of smartphone in the future., Strongly Agree",
+        "18 years old",
+        "19 years old",
+        "20 years old",
+        "21 years old",
+        "22 years old",
+        "23 years old",
+        "24 years old",
     ]
     const randomizer = Math.floor(Math.random() * arr.length);
     return arr[randomizer];

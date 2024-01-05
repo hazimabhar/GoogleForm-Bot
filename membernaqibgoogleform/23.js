@@ -2,8 +2,12 @@
 
 function getAnswerFaiz23(){
     const arr =[
-        "Single",
-        "Married",
+        "Year 1",
+        "Year 2",
+        "Year 3",
+        "Year 4",
+        "Year 5",
+        "Year 6",
     ]
     const randomizer = Math.floor(Math.random() * arr.length);
     return arr[randomizer];

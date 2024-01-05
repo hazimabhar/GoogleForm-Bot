@@ -2,16 +2,16 @@
 
 function getAnswerFaiz22(){
     const arr =[
-        "17 and below",
-        "18 – 22",
-        "23 – 26",
-        "27 – 30",
-        "31 – 36",
-        "37 – 42",
-        "43 – 48",
-        "49 – 53",
-        "54 – 58",
-        "59 and above",
+        "Faculty of Quranic & Sunnah Studies ",
+        "Faculty of Leadership & Management",
+        "Faculty of Syariah & Law",
+        "Faculty Economics & Muamalat",
+        "Faculty of Science & Technology",
+        "Faculty of Medicine & Health Science",
+        "Faculty of Major Language Studies",
+        "Faculty of Dentistry",
+        "Faculty of Engineering & Built Environment",
+        "Tamhidi Centre",
     ]
     const randomizer = Math.floor(Math.random() * arr.length);
     return arr[randomizer];

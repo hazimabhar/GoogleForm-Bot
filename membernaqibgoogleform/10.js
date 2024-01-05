@@ -2,11 +2,11 @@
 
 function getAnswerFaiz10(){
     const arr =[
-        "I will recommend my friend to buy this smartphone., Strongly Disagree",
-        "I will recommend my friend to buy this smartphone., Disagree",
-        "I will recommend my friend to buy this smartphone., Neutral",
-        "I will recommend my friend to buy this smartphone., Agree",
-        "I will recommend my friend to buy this smartphone., Strongly Agree",
+        "Positive feedback about a restaurant's price is important to me., Strongly Disagree",
+        "Positive feedback about a restaurant's price is important to me., Disagree",
+        "Positive feedback about a restaurant's price is important to me., Neutral",
+        "Positive feedback about a restaurant's price is important to me., Agree",
+        "Positive feedback about a restaurant's price is important to me., Strongly Agree",
     ]
     const randomizer = Math.floor(Math.random() * arr.length);
     return arr[randomizer];

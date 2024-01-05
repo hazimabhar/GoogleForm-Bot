@@ -2,11 +2,11 @@
 
 function getAnswerFaiz4(){
     const arr =[
-        "I am familiar with my Smartphone brand, Strongly Disagree",
-        "I am familiar with my Smartphone brand, Disagree",
-        "I am familiar with my Smartphone brand, Neutral",
-        "I am familiar with my Smartphone brand, Agree",
-        "I am familiar with my Smartphone brand, Strongly Agree",
+        "My intention to visit a restaurant is influenced by the comments provided by other online users., Strongly Disagree",
+        "My intention to visit a restaurant is influenced by the comments provided by other online users., Disagree",
+        "My intention to visit a restaurant is influenced by the comments provided by other online users., Neutral",
+        "My intention to visit a restaurant is influenced by the comments provided by other online users., Agree",
+        "My intention to visit a restaurant is influenced by the comments provided by other online users., Strongly Agree",
     ]
     const randomizer = Math.floor(Math.random() * arr.length);
     return arr[randomizer];

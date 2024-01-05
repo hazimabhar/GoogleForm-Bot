@@ -2,11 +2,8 @@
 
 function getAnswerFaiz18(){
     const arr =[
-        "I intend to keep continuing using smartphone in the future., Strongly Disagree",
-        "I intend to keep continuing using smartphone in the future., Disagree",
-        "I intend to keep continuing using smartphone in the future., Neutral",
-        "I intend to keep continuing using smartphone in the future., Agree",
-        "I intend to keep continuing using smartphone in the future., Strongly Agree",
+        "Male",
+        "Female",
     ]
     const randomizer = Math.floor(Math.random() * arr.length);
     return arr[randomizer];

@@ -2,11 +2,11 @@
 
 function getAnswerFaiz14(){
     const arr =[
-        "I usually consult my friends when buying a Smartphone brand., Strongly Disagree",
-        "I usually consult my friends when buying a Smartphone brand., Disagree",
-        "I usually consult my friends when buying a Smartphone brand., Neutral",
-        "I usually consult my friends when buying a Smartphone brand., Agree",
-        "I usually consult my friends when buying a Smartphone brand., Strongly Agree", 
+        "I consider the taste of the food to be important when choosing a restaurant., Strongly Disagree",
+        "I consider the taste of the food to be important when choosing a restaurant., Disagree",
+        "I consider the taste of the food to be important when choosing a restaurant., Neutral",
+        "I consider the taste of the food to be important when choosing a restaurant., Agree",
+        "I consider the taste of the food to be important when choosing a restaurant., Strongly Agree",
     ]
     const randomizer = Math.floor(Math.random() * arr.length);
     return arr[randomizer];

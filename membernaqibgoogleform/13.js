@@ -2,11 +2,11 @@
 
 function getAnswerFaiz13(){
     const arr =[
-        "I would buy a smartphone if it helped me fit in with my social group better., Strongly Disagree",
-        "I would buy a smartphone if it helped me fit in with my social group better., Disagree",
-        "I would buy a smartphone if it helped me fit in with my social group better., Neutral",
-        "I would buy a smartphone if it helped me fit in with my social group better., Agree",
-        "I would buy a smartphone if it helped me fit in with my social group better., Strongly Agree",
+        "Food quality feedback is important to me when choosing a restaurant., Strongly Disagree",
+        "Food quality feedback is important to me when choosing a restaurant., Disagree",
+        "Food quality feedback is important to me when choosing a restaurant., Neutral",
+        "Food quality feedback is important to me when choosing a restaurant., Agree",
+        "Food quality feedback is important to me when choosing a restaurant., Strongly Agree",
     ]
     const randomizer = Math.floor(Math.random() * arr.length);
     return arr[randomizer];

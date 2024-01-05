@@ -2,11 +2,11 @@
 
 function getAnswerFaiz16(){
     const arr =[
-        "I will use smartphone regularly in the future., Strongly Disagree",
-        "I will use smartphone regularly in the future., Disagree",
-        "I will use smartphone regularly in the future., Neutral",
-        "I will use smartphone regularly in the future., Agree",
-        "I will use smartphone regularly in the future., Strongly Agree",
+        "I consider the presentation of the food to be important when choosing a restaurant., Strongly Disagree",
+        "I consider the presentation of the food to be important when choosing a restaurant., Disagree",
+        "I consider the presentation of the food to be important when choosing a restaurant., Neutral",
+        "I consider the presentation of the food to be important when choosing a restaurant., Agree",
+        "I consider the presentation of the food to be important when choosing a restaurant., Strongly Agree",
     ]
     const randomizer = Math.floor(Math.random() * arr.length);
     return arr[randomizer];

@@ -2,11 +2,11 @@
 
 function getAnswerFaiz3(){
     const arr =[
-        "When I think of a smartphone, my smartphone brand is one of the brands that come to my mind, Strongly Disagree",
-        "When I think of a smartphone, my smartphone brand is one of the brands that come to my mind, Disagree",
-        "When I think of a smartphone, my smartphone brand is one of the brands that come to my mind, Neutral",
-        "When I think of a smartphone, my smartphone brand is one of the brands that come to my mind, Agree",
-        "When I think of a smartphone, my smartphone brand is one of the brands that come to my mind, Strongly Agree",
+        "I am more likely to try a new restaurant if I see a lot of people recommending it online., Strongly Disagree",
+        "I am more likely to try a new restaurant if I see a lot of people recommending it online., Disagree",
+        "I am more likely to try a new restaurant if I see a lot of people recommending it online., Neutral",
+        "I am more likely to try a new restaurant if I see a lot of people recommending it online., Agree",
+        "I am more likely to try a new restaurant if I see a lot of people recommending it online., Strongly Agree",
     ]
     const randomizer = Math.floor(Math.random() * arr.length);
     return arr[randomizer];

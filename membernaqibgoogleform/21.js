@@ -2,9 +2,9 @@
 
 function getAnswerFaiz21(){
     const arr =[
-        "Malay",
-        "Chinese",
-        "Indian",
+        "Single",
+        "Married",
+        "Divorced",
     ]
     const randomizer = Math.floor(Math.random() * arr.length);
     return arr[randomizer];

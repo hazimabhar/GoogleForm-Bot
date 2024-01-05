@@ -2,11 +2,11 @@
 
 function getAnswerFaiz7(){
     const arr =[
-        "My smartphone has good quality, Strongly Disagree",
-        "My smartphone has good quality, Disagree",
-        "My smartphone has good quality, Neutral",
-        "My smartphone has good quality, Agree",
-        "My smartphone has good quality, Strongly Agree",
+        "I read food blogs to find information about restaurants., Strongly Disagree",
+        "I read food blogs to find information about restaurants., Disagree",
+        "I read food blogs to find information about restaurants., Neutral",
+        "I read food blogs to find information about restaurants., Agree",
+        "I read food blogs to find information about restaurants., Strongly Agree",
     ]
     const randomizer = Math.floor(Math.random() * arr.length);
     return arr[randomizer];

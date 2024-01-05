@@ -2,11 +2,11 @@
 
 function getAnswerFaiz9(){
     const arr =[
-        "I consider myself to be loyal to this smartphone brand, Strongly Disagree",
-        "I consider myself to be loyal to this smartphone brand, Disagree",
-        "I consider myself to be loyal to this smartphone brand, Neutral",
-        "I consider myself to be loyal to this smartphone brand, Agree",
-        "I consider myself to be loyal to this smartphone brand, Strongly Agree",
+        "Positive feedback about a restaurant's food quality is important to me., Strongly Disagree",
+        "Positive feedback about a restaurant's food quality is important to me., Disagree",
+        "Positive feedback about a restaurant's food quality is important to me., Neutral",
+        "Positive feedback about a restaurant's food quality is important to me., Agree",
+        "Positive feedback about a restaurant's food quality is important to me., Strongly Agree",
     ]
     const randomizer = Math.floor(Math.random() * arr.length);
     return arr[randomizer];

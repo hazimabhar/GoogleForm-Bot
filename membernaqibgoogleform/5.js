@@ -2,12 +2,11 @@
 
 function getAnswerFaiz5(){
     const arr =[
-        "My smartphone brand is reliable brand, Strongly Disagree",
-        "My smartphone brand is reliable brand, Disagree",
-        "My smartphone brand is reliable brand, Neutral",
-        "My smartphone brand is reliable brand, Agree",
-        "My smartphone brand is reliable brand, Strongly Agree",
-
+        "I often read online reviews of restaurants before making a decision about where to eat. , Strongly Disagree",
+        "I often read online reviews of restaurants before making a decision about where to eat. , Disagree",
+        "I often read online reviews of restaurants before making a decision about where to eat. , Neutral",
+        "I often read online reviews of restaurants before making a decision about where to eat. , Agree",
+        "I often read online reviews of restaurants before making a decision about where to eat. , Strongly Agree",
     ]
     const randomizer = Math.floor(Math.random() * arr.length);
     return arr[randomizer];

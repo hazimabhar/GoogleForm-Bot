@@ -2,11 +2,11 @@
 
 function getAnswerFaiz6(){
     const arr =[
-        "I purchase my favorite brand of smartphone only., Strongly Disagree",
-        "I purchase my favorite brand of smartphone only., Disagree",
-        "I purchase my favorite brand of smartphone only., Neutral",
-        "I purchase my favorite brand of smartphone only., Agree",
-        "I purchase my favorite brand of smartphone only., Strongly Agree",
+        "I use social media to find information about restaurants., Strongly Disagree",
+        "I use social media to find information about restaurants., Disagree",
+        "I use social media to find information about restaurants., Neutral",
+        "I use social media to find information about restaurants., Agree",
+        "I use social media to find information about restaurants., Strongly Agree",
     ]
     const randomizer = Math.floor(Math.random() * arr.length);
     return arr[randomizer];
